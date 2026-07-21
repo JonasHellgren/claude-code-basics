@@ -1,0 +1,64 @@
+GAME ANALYSIS REPORT
+=====================
+
+Secret Number: 73
+Number of Attempts: 6
+
+All Guessed Numbers: 50, 75, 62, 68, 71, 73
+
+Complete Guess History:
+  Attempt 1: Guess 50 -> Too low   (Interval before: [1, 100])
+  Attempt 2: Guess 75 -> Too high  (Interval before: [51, 100])
+  Attempt 3: Guess 62 -> Too low   (Interval before: [51, 74])
+  Attempt 4: Guess 68 -> Too low   (Interval before: [63, 74])
+  Attempt 5: Guess 71 -> Too low   (Interval before: [69, 74])
+  Attempt 6: Guess 73 -> Correct   (Interval before: [72, 74])
+
+Validation of Every Guess (was it within the current interval?)
+  Attempt 1: Guess 50 is within [1, 100]   -> VALID
+  Attempt 2: Guess 75 is within [51, 100]  -> VALID
+  Attempt 3: Guess 62 is within [51, 74]   -> VALID
+  Attempt 4: Guess 68 is within [63, 74]   -> VALID
+  Attempt 5: Guess 71 is within [69, 74]   -> VALID
+  Attempt 6: Guess 73 is within [72, 74]   -> VALID
+  All 6 guesses were valid; none fell outside the current search interval.
+
+Validation of Every Interval Update (was lower/upper updated correctly?)
+  Attempt 1: 50 too low  -> expected lower = 51, upper = 100  -> next interval given [51, 100]  -> CORRECT
+  Attempt 2: 75 too high -> expected lower = 51, upper = 74   -> next interval given [51, 74]   -> CORRECT
+  Attempt 3: 62 too low  -> expected lower = 63, upper = 74   -> next interval given [63, 74]   -> CORRECT
+  Attempt 4: 68 too low  -> expected lower = 69, upper = 74   -> next interval given [69, 74]   -> CORRECT
+  Attempt 5: 71 too low  -> expected lower = 72, upper = 74   -> next interval given [72, 74]   -> CORRECT
+  Attempt 6: 73 correct  -> game ends, no further update needed.
+  All 5 interval updates (after non-final guesses) were applied correctly using the
+  standard rules: too low -> lower = guess + 1; too high -> upper = guess - 1.
+
+Binary Search Evaluation (was each guess close to the midpoint of its interval?)
+  Attempt 1: interval [1, 100],  midpoint = 50.5 -> guess 50 (0.5 off midpoint)  -> optimal
+  Attempt 2: interval [51, 100], midpoint = 75.5 -> guess 75 (0.5 off midpoint)  -> optimal
+  Attempt 3: interval [51, 74],  midpoint = 62.5 -> guess 62 (0.5 off midpoint)  -> optimal
+  Attempt 4: interval [63, 74],  midpoint = 68.5 -> guess 68 (0.5 off midpoint)  -> optimal
+  Attempt 5: interval [69, 74],  midpoint = 71.5 -> guess 71 (0.5 off midpoint)  -> optimal
+  Attempt 6: interval [72, 74],  midpoint = 73   -> guess 73 (exact midpoint)    -> optimal
+  Every guess landed on the floor of the interval's midpoint, which is the textbook
+  optimal choice for binary search. This is a textbook, ideal binary search strategy
+  with no deviations.
+
+Efficiency Evaluation
+  Search range size: 100 numbers (1 to 100).
+  Theoretical worst-case bound for a guaranteed binary search: ceil(log2(100)) = 7 attempts.
+  Theoretical best case (luckiest possible outcome): 1 attempt.
+  Actual attempts used: 6.
+  6 <= 7, so the game finished within (and better than) the guaranteed worst-case bound.
+  Because every guess was an exact midpoint bisection, 6 attempts reflects a
+  near-optimal outcome for a secret number at this particular position in the range;
+  no attempts were wasted and no guess strategy error added extra steps.
+
+Suggestions for Improvement
+  - The strategy used was already optimal binary search; no correctness issues were found.
+  - Document/standardize the midpoint tie-breaking rule (floor vs. ceil when the
+    interval size is even) so behavior is consistent and predictable across games.
+  - Consider logging the computed midpoint alongside each guess in gameHistory to make
+    strategy verification (as done in this report) automatic rather than manual.
+  - No changes are needed to the guessing algorithm itself; performance was optimal
+    given the secret number's position.

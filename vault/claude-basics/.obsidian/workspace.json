@@ -6,6 +6,7 @@
       {
         "id": "88ca81aac476d17b",
         "type": "tabs",
+        "dimension": 44.9375866851595,
         "children": [
           {
             "id": "477eb151fb28e4ca",
@@ -13,22 +14,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Välkommen.md",
+                "file": "Guess number.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Välkommen"
+              "title": "Guess number"
+            }
+          },
+          {
+            "id": "7a4c5c8412aa22ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Examples.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Examples"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "9cf6344a526fbffb",
         "type": "tabs",
+        "dimension": 55.0624133148405,
         "children": [
           {
-            "id": "9f67ad9c472b0b2f",
+            "id": "9e3e31266bfa16c3",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -94,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 221.5
   },
   "right": {
     "id": "7cc8ded27166ec1d",
@@ -110,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Välkommen.md",
+                "file": "Examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bakåtlänkar för Välkommen"
+              "title": "Bakåtlänkar för Examples"
             }
           },
           {
@@ -129,12 +146,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Välkommen.md",
+                "file": "Examples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Utgående länkar från Välkommen"
+              "title": "Utgående länkar från Examples"
             }
           },
           {
@@ -172,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Välkommen.md",
+                "file": "Examples.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Disposition av Välkommen"
+              "title": "Disposition av Examples"
             }
           }
         ]
@@ -199,8 +216,10 @@
       "bases:Skapa ny bas": false
     }
   },
-  "active": "477eb151fb28e4ca",
+  "active": "7a4c5c8412aa22ab",
   "lastOpenFiles": [
-    "Välkommen.md"
+    "Hello world.md",
+    "Examples.md",
+    "Guess number.md"
   ]
 }
