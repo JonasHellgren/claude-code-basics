@@ -1,64 +1,217 @@
-GAME ANALYSIS REPORT
-=====================
+================================================================================
+                      NUMBER GUESSING GAME ANALYSIS REPORT
+================================================================================
 
-Secret Number: 73
-Number of Attempts: 6
+SECRET NUMBER: 42
+TOTAL ATTEMPTS: 7
+RANGE: 1-100
 
-All Guessed Numbers: 50, 75, 62, 68, 71, 73
+================================================================================
+GUESSED NUMBERS (in order)
+================================================================================
 
-Complete Guess History:
-  Attempt 1: Guess 50 -> Too low   (Interval before: [1, 100])
-  Attempt 2: Guess 75 -> Too high  (Interval before: [51, 100])
-  Attempt 3: Guess 62 -> Too low   (Interval before: [51, 74])
-  Attempt 4: Guess 68 -> Too low   (Interval before: [63, 74])
-  Attempt 5: Guess 71 -> Too low   (Interval before: [69, 74])
-  Attempt 6: Guess 73 -> Correct   (Interval before: [72, 74])
+1. 50
+2. 25
+3. 37
+4. 43
+5. 40
+6. 41
+7. 42
 
-Validation of Every Guess (was it within the current interval?)
-  Attempt 1: Guess 50 is within [1, 100]   -> VALID
-  Attempt 2: Guess 75 is within [51, 100]  -> VALID
-  Attempt 3: Guess 62 is within [51, 74]   -> VALID
-  Attempt 4: Guess 68 is within [63, 74]   -> VALID
-  Attempt 5: Guess 71 is within [69, 74]   -> VALID
-  Attempt 6: Guess 73 is within [72, 74]   -> VALID
-  All 6 guesses were valid; none fell outside the current search interval.
 
-Validation of Every Interval Update (was lower/upper updated correctly?)
-  Attempt 1: 50 too low  -> expected lower = 51, upper = 100  -> next interval given [51, 100]  -> CORRECT
-  Attempt 2: 75 too high -> expected lower = 51, upper = 74   -> next interval given [51, 74]   -> CORRECT
-  Attempt 3: 62 too low  -> expected lower = 63, upper = 74   -> next interval given [63, 74]   -> CORRECT
-  Attempt 4: 68 too low  -> expected lower = 69, upper = 74   -> next interval given [69, 74]   -> CORRECT
-  Attempt 5: 71 too low  -> expected lower = 72, upper = 74   -> next interval given [72, 74]   -> CORRECT
-  Attempt 6: 73 correct  -> game ends, no further update needed.
-  All 5 interval updates (after non-final guesses) were applied correctly using the
-  standard rules: too low -> lower = guess + 1; too high -> upper = guess - 1.
+================================================================================
+COMPLETE GUESS HISTORY
+================================================================================
 
-Binary Search Evaluation (was each guess close to the midpoint of its interval?)
-  Attempt 1: interval [1, 100],  midpoint = 50.5 -> guess 50 (0.5 off midpoint)  -> optimal
-  Attempt 2: interval [51, 100], midpoint = 75.5 -> guess 75 (0.5 off midpoint)  -> optimal
-  Attempt 3: interval [51, 74],  midpoint = 62.5 -> guess 62 (0.5 off midpoint)  -> optimal
-  Attempt 4: interval [63, 74],  midpoint = 68.5 -> guess 68 (0.5 off midpoint)  -> optimal
-  Attempt 5: interval [69, 74],  midpoint = 71.5 -> guess 71 (0.5 off midpoint)  -> optimal
-  Attempt 6: interval [72, 74],  midpoint = 73   -> guess 73 (exact midpoint)    -> optimal
-  Every guess landed on the floor of the interval's midpoint, which is the textbook
-  optimal choice for binary search. This is a textbook, ideal binary search strategy
-  with no deviations.
+Attempt 1: Guess 50  —  Too High
+  Interval before: [1, 100]
+  Interval after: [1, 49]
 
-Efficiency Evaluation
-  Search range size: 100 numbers (1 to 100).
-  Theoretical worst-case bound for a guaranteed binary search: ceil(log2(100)) = 7 attempts.
-  Theoretical best case (luckiest possible outcome): 1 attempt.
-  Actual attempts used: 6.
-  6 <= 7, so the game finished within (and better than) the guaranteed worst-case bound.
-  Because every guess was an exact midpoint bisection, 6 attempts reflects a
-  near-optimal outcome for a secret number at this particular position in the range;
-  no attempts were wasted and no guess strategy error added extra steps.
+Attempt 2: Guess 25  —  Too Low
+  Interval before: [1, 49]
+  Interval after: [26, 49]
 
-Suggestions for Improvement
-  - The strategy used was already optimal binary search; no correctness issues were found.
-  - Document/standardize the midpoint tie-breaking rule (floor vs. ceil when the
-    interval size is even) so behavior is consistent and predictable across games.
-  - Consider logging the computed midpoint alongside each guess in gameHistory to make
-    strategy verification (as done in this report) automatic rather than manual.
-  - No changes are needed to the guessing algorithm itself; performance was optimal
-    given the secret number's position.
+Attempt 3: Guess 37  —  Too Low
+  Interval before: [26, 49]
+  Interval after: [38, 49]
+
+Attempt 4: Guess 43  —  Too High
+  Interval before: [38, 49]
+  Interval after: [38, 42]
+
+Attempt 5: Guess 40  —  Too Low
+  Interval before: [38, 42]
+  Interval after: [41, 42]
+
+Attempt 6: Guess 41  —  Too Low
+  Interval before: [41, 42]
+  Interval after: [42, 42]
+
+Attempt 7: Guess 42  —  Correct
+  Interval before: [42, 42]
+  Success!
+
+
+================================================================================
+INTERVAL UPDATE VERIFICATION
+================================================================================
+
+Attempt 1: Guess 50 (Too High)
+  Expected: upper = 50 - 1 = 49
+  Actual: upper = 49
+  Status: VERIFIED ✓
+
+Attempt 2: Guess 25 (Too Low)
+  Expected: lower = 25 + 1 = 26
+  Actual: lower = 26
+  Status: VERIFIED ✓
+
+Attempt 3: Guess 37 (Too Low)
+  Expected: lower = 37 + 1 = 38
+  Actual: lower = 38
+  Status: VERIFIED ✓
+
+Attempt 4: Guess 43 (Too High)
+  Expected: upper = 43 - 1 = 42
+  Actual: upper = 42
+  Status: VERIFIED ✓
+
+Attempt 5: Guess 40 (Too Low)
+  Expected: lower = 40 + 1 = 41
+  Actual: lower = 41
+  Status: VERIFIED ✓
+
+Attempt 6: Guess 41 (Too Low)
+  Expected: lower = 41 + 1 = 42
+  Actual: lower = 42
+  Status: VERIFIED ✓
+
+Attempt 7: Guess 42 (Correct)
+  Status: TARGET FOUND ✓
+
+RESULT: All interval updates are correct.
+
+
+================================================================================
+VALID INTERVAL VERIFICATION
+================================================================================
+
+Attempt 1: Guess 50 in [1, 100]?     YES ✓
+Attempt 2: Guess 25 in [1, 49]?      YES ✓
+Attempt 3: Guess 37 in [26, 49]?     YES ✓
+Attempt 4: Guess 43 in [38, 49]?     YES ✓
+Attempt 5: Guess 40 in [38, 42]?     YES ✓
+Attempt 6: Guess 41 in [41, 42]?     YES ✓
+Attempt 7: Guess 42 in [42, 42]?     YES ✓
+
+RESULT: All guesses were inside the valid interval at the time made.
+
+
+================================================================================
+BINARY SEARCH STRATEGY EVALUATION
+================================================================================
+
+Binary search requires guessing at the midpoint of the current interval to
+partition the search space in half with each guess.
+
+Attempt 1: [1, 100]
+  Midpoint: (1 + 100) / 2 = 50.5 → expect 50 or 51
+  Guess: 50
+  Status: CORRECT ✓
+
+Attempt 2: [1, 49]
+  Midpoint: (1 + 49) / 2 = 25
+  Guess: 25
+  Status: CORRECT ✓
+
+Attempt 3: [26, 49]
+  Midpoint: (26 + 49) / 2 = 37.5 → expect 37 or 38
+  Guess: 37
+  Status: CORRECT ✓
+
+Attempt 4: [38, 49]
+  Midpoint: (38 + 49) / 2 = 43.5 → expect 43 or 44
+  Guess: 43
+  Status: CORRECT ✓
+
+Attempt 5: [38, 42]
+  Midpoint: (38 + 42) / 2 = 40
+  Guess: 40
+  Status: CORRECT ✓
+
+Attempt 6: [41, 42]
+  Midpoint: (41 + 42) / 2 = 41.5 → expect 41 or 42
+  Guess: 41
+  Status: CORRECT ✓
+
+Attempt 7: [42, 42]
+  Midpoint: 42
+  Guess: 42
+  Status: TARGET FOUND ✓
+
+RESULT: Binary search was followed perfectly. Every guess was at or extremely
+close to the mathematical midpoint.
+
+
+================================================================================
+EFFICIENCY EVALUATION
+================================================================================
+
+Range size: 100 (numbers 1-100)
+Theoretical maximum attempts: ceil(log₂(100)) = ceil(6.644) = 7 attempts
+Actual attempts: 7
+
+RESULT: OPTIMAL PERFORMANCE
+The game was completed in the absolute minimum number of attempts possible
+for a 1-100 range. This represents perfect efficiency using binary search.
+
+Performance ratio: 7 / 7 = 100% (optimal)
+
+
+================================================================================
+STRATEGY ASSESSMENT
+================================================================================
+
+STRENGTHS:
+✓ Perfect binary search implementation
+✓ All guesses positioned at mathematical midpoint
+✓ All interval updates computed correctly
+✓ No wasted guesses
+✓ Achieved theoretical optimum in 7 attempts
+✓ Systematic elimination of half the search space with each guess
+✓ Methodical approach with no deviations
+
+WEAKNESSES:
+None identified. The strategy was flawless.
+
+
+================================================================================
+SUGGESTIONS FOR IMPROVEMENT
+================================================================================
+
+No improvements needed. This is a textbook example of optimal binary search.
+
+The guesser demonstrated:
+1. Perfect understanding of binary search principles
+2. Accurate midpoint calculations
+3. Correct interval boundary updates
+4. No strategic errors
+
+This game should serve as a reference example for binary search efficiency.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+
+The number guessing game for secret number 42 was completed in 7 attempts,
+which is the theoretical optimum for a 1-100 range. The strategy employed was
+binary search, and it was executed perfectly with no errors, deviations, or
+inefficiencies. Every guess was positioned at the midpoint of the current
+interval, ensuring maximum information gain with each attempt.
+
+This represents a model game demonstrating optimal number-guessing technique.
+
+================================================================================
+                              END OF REPORT
+================================================================================

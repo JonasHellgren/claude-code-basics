@@ -6,7 +6,6 @@
       {
         "id": "88ca81aac476d17b",
         "type": "tabs",
-        "dimension": 44.9375866851595,
         "children": [
           {
             "id": "477eb151fb28e4ca",
@@ -14,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guess number.md",
+                "file": "examples/Guess number.md",
                 "mode": "source",
                 "source": false
               },
@@ -23,35 +22,136 @@
             }
           },
           {
-            "id": "7a4c5c8412aa22ab",
+            "id": "c0b27665d0e5c124",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Examples.md",
+                "file": "concepts/Main agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Examples"
+              "title": "Main agent"
+            }
+          },
+          {
+            "id": "716f5c04ad95ba21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/Prompt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prompt"
+            }
+          },
+          {
+            "id": "5492580428914d52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/Subagent.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Subagent"
+            }
+          },
+          {
+            "id": "5074b0bc2a825fc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/Input file.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Input file"
+            }
+          },
+          {
+            "id": "c85ed6b76ff4dc43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/State file.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "State file"
+            }
+          },
+          {
+            "id": "75d2a45d7f7d002e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "examples/Route planner.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Route planner"
+            }
+          },
+          {
+            "id": "61d2cfe1c40f70fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Concepts"
+            }
+          },
+          {
+            "id": "af669f31a6a7330f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Concepts"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       },
       {
-        "id": "9cf6344a526fbffb",
+        "id": "36662601ffec122c",
         "type": "tabs",
-        "dimension": 55.0624133148405,
         "children": [
           {
-            "id": "9e3e31266bfa16c3",
+            "id": "b38b746a2bff8554",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Grafvy"
+              "type": "markdown",
+              "state": {
+                "file": "examples/Route planner.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Route planner"
             }
           }
         ]
@@ -127,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Examples.md",
+                "file": "Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +237,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bakåtlänkar för Examples"
+              "title": "Bakåtlänkar för Concepts"
             }
           },
           {
@@ -146,12 +246,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Examples.md",
+                "file": "Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Utgående länkar från Examples"
+              "title": "Utgående länkar från Concepts"
             }
           },
           {
@@ -189,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Examples.md",
+                "file": "Concepts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Disposition av Examples"
+              "title": "Disposition av Concepts"
             }
           }
         ]
@@ -216,10 +316,27 @@
       "bases:Skapa ny bas": false
     }
   },
-  "active": "7a4c5c8412aa22ab",
+  "active": "af669f31a6a7330f",
   "lastOpenFiles": [
-    "Hello world.md",
     "Examples.md",
-    "Guess number.md"
+    "concepts/Web search.md",
+    "Concepts.md",
+    "concepts/Subagent.md",
+    "concepts/State file.md",
+    "concepts/Prompt.md",
+    "concepts/Main agent.md",
+    "concepts/Input file.md",
+    "examples/Route planner.md",
+    "examples/Guess number.md",
+    "examples/Hello world.md",
+    "concepts",
+    "examples/Book reviewer.md",
+    "figs/guess-num-flow.png",
+    "BookReviewer.md",
+    "examples/Car classifier.md",
+    "figs/route-planner-flow.png",
+    "figs",
+    "Ny mapp",
+    "examples"
   ]
 }

@@ -1,0 +1,12 @@
+Optimization complete. Final report:
+
+Iteration 1 | Route: (8,5) -> (6,7) -> (4,9) -> (2,3) -> (10,2) | Distance: 20.043667
+Iteration 2 | Route: (2,3) -> (8,5) -> (10,2) -> (6,7) -> (4,9) | Distance: 19.161658
+Iteration 3 | Route: (6,7) -> (4,9) -> (2,3) -> (8,5) -> (10,2) | Distance: 19.083089
+Iteration 4 | Route: (4,9) -> (6,7) -> (8,5) -> (10,2) -> (2,3) | Distance: 17.324663
+Iteration 5 | Route: (4,9) -> (6,7) -> (8,5) -> (10,2) -> (2,3) | Distance: 17.324663
+Iteration 6 | Route: (4,9) -> (6,7) -> (8,5) -> (10,2) -> (2,3) | Distance: 17.324663
+Iteration 7 | Route: (4,9) -> (6,7) -> (8,5) -> (10,2) -> (2,3) | Distance: 17.324663
+Iteration 8 | Route: (4,9) -> (6,7) -> (8,5) -> (10,2) -> (2,3) | Distance: 17.324663
+Iteration 9 | Route: (4,9) -> (6,7) -> (8,5) -> (10,2) -> (2,3) | Distance: 17.324663
+Iteration 10 | Route: (4,9) -> (6,7) -> (8,5) -> (10,2) -> (2,3) | Distance: 17.324663
