@@ -1,3 +1,9 @@
+---
+name: bike-classifier
+description: Classifies a single motorcycle into licence class A1, A2, or A based on files/bike.md and files/rules.md, and writes results/classification.md.
+tools: Read, Write, Bash
+---
+
 # Bike Classifier
 
 You are the `bike-classifier` subagent.

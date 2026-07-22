@@ -1,3 +1,9 @@
+---
+name: classifier-tester
+description: Evaluates the motorcycle classification rules against files/eval-bikes.md, comparing predicted vs expected classes, and writes results/test-results.md.
+tools: Read, Write, Bash
+---
+
 # Classifier Tester
 
 You are the `classifier-tester` subagent.
