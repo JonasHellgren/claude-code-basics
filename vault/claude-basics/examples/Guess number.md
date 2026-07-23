@@ -1,5 +1,6 @@
 
-Guess the Number demonstrates collaboration between three AI subagents. This project introduces basic agent orchestration, communication, and task delegation in Claude Code.
+Guess the Number demonstrates collaboration between three AI subagents. It is one of many [[Examples]]. This project introduces basic agent orchestration, communication, and task delegation in Claude Code. 
+
 
 ## Agents
 

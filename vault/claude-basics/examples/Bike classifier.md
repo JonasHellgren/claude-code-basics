@@ -1,7 +1,6 @@
 
-The Bike Classifier determines whether a motorcycle belongs to licence class `A1`, `A2`, or `A`.  
-The main agent accepts the commands `start` and `test`.  
-With `start`, it reads one motorcycle from `files/bike.md` and applies the rules in `files/rules.md`.  
+The Bike Classifier determines whether a motorcycle belongs to licence class `A1`, `A2`, or `A`.  It is one of many [[Examples]].
+The main agent accepts the commands `start` and `test`. With `start`, it reads one motorcycle from `files/bike.md` and applies the rules in `files/rules.md`.  
 The classification is based on engine volume, engine power, weight, and power-to-weight ratio.  
 The result is saved in `results/classification.md`.  
 With `test`, the system reads several motorcycles from `files/eval-bikes.md`.  
@@ -22,3 +21,5 @@ The test summary is saved in `results/test-results.md`.
 
 ## Execution logic
 
+
+![[bike classifier.png]]

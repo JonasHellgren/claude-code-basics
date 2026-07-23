@@ -1,0 +1,21 @@
+Project/
+    references/
+    reports/
+        old/
+        application/
+        publications/
+        from-project/
+    code/
+    obsidian/
+        meeting-notes/
+        actions/
+        milestones/
+        contacts/
+        references/
+        daily-notes/
+        ideas/
+        decisions/
+        diagrams/
+        templates/
+
+        
