@@ -1,0 +1,1 @@
+I say to you toooday, my friends, though, even through we face the difficulties of today and tomorrow, I still have a Dream It is a dream deeply rooted in the American dream. I have a dream that one day this nation will rise up,

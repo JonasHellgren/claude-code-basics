@@ -8,4 +8,9 @@
 | 3   | Route planner   | [[Route planner]]   |
 | 4   | Book reviewer   | [[Book reviewer]]   |
 | 5   | Bkie classifier | [[Bike classifier]] |
+| 6   | Folder creator  |                     |
+| 7   | Slash commands  | [[Slash commands]]  |
+| 8   | Skills          | [[Agent skills]]    |
+|     |                 |                     |
+|     |                 |                     |
 |     |                 |                     |

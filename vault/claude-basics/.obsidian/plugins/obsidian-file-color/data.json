@@ -1,0 +1,36 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "cDRdrQPvhdVqYUPmx5_MM",
+      "name": "",
+      "value": "#ffffff"
+    },
+    {
+      "id": "eJW5BlJGMj2E88xD3O_zP",
+      "name": "",
+      "value": "#d73737"
+    },
+    {
+      "id": "ocUwEQKs75-kcaoLI7y13",
+      "name": "",
+      "value": "#bdbcbc"
+    },
+    {
+      "id": "pl3r1RF9CtJCQQN5H2vwk",
+      "name": "",
+      "value": "#426ed7"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Examples.md",
+      "color": "eJW5BlJGMj2E88xD3O_zP"
+    },
+    {
+      "path": "Concepts.md",
+      "color": "eJW5BlJGMj2E88xD3O_zP"
+    }
+  ]
+}
