@@ -1,0 +1,2 @@
+
+Generic object creation is the process of generating structured objects from a common template or specification. Instead of creating each object manually, an AI agent produces multiple consistent objects based on shared rules, while allowing each object to contain unique content. This approach improves consistency, scalability, and automation when producing collections of related artifacts such as documents, reports, configuration files, or data records.

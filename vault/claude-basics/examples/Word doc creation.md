@@ -21,6 +21,4 @@ After installation, you normally do not need to invoke a specific slash command.
 ## Example skill
 
 
-
-
 The skill *document-skills* enable Claude Code to generate structured output in common file formats instead of plain text. Examples include Word documents (.docx), PDF files (.pdf), presentations (.pptx), and spreadsheets (.xlsx). These skills handle formatting, layout, and file generation automatically, allowing agents to focus on the content while producing professional, ready-to-use artifacts.

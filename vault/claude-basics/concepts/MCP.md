@@ -1,0 +1,2 @@
+
+MCP is a standard interface that allows an AI application to communicate with connected services such as research databases, file systems, APIs, development tools, and business systems. Instead of relying only on its built-in knowledge, the agent can request current and structured information through an MCP server.
