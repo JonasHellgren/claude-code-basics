@@ -9,7 +9,7 @@ model: haiku
 
 Read every Markdown file inside:
 
-`G:/Min enhet/cocking-support/recipes/`
+`recipes/`
 
 For each recipe, extract:
 
@@ -29,7 +29,7 @@ Normalize ingredient names using the same rules as the ingredient-reader:
 
 Save the extracted information to:
 
-`results/recipes-summary.md`
+`tempresults/recipes-summary.md`
 
 Use this format:
 

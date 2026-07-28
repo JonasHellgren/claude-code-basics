@@ -33,7 +33,7 @@ Servings: 4
 
 - chicken breast
 - onion
-- garlic
+- garlic clove
 - coconut milk
 - curry powder
 - rice
@@ -108,7 +108,7 @@ Servings: 2
 - pasta
 - tomato
 - onion
-- garlic
+- garlic clove
 - parmesan cheese
 - basil
 - cooking oil

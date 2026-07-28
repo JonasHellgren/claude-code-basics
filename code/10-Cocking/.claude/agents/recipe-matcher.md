@@ -9,8 +9,8 @@ model: haiku
 
 Read:
 
-- `results/normalized-ingredients.md`
-- `results/recipes-summary.md`
+- `tempresults/normalized-ingredients.md`
+- `tempresults/recipes-summary.md`
 
 Compare the required ingredients for each recipe with the available ingredients.
 
@@ -33,7 +33,7 @@ Rank recipes using these rules:
 
 Save the result to:
 
-`G:/Min enhet/cocking-support/results/recommendations.docx`
+`pathdrive/results/recommendations.pdf`
 
 Use this format:
 

@@ -6,6 +6,9 @@
 - flour
 - milk
 - butter
-- black pepper
 - pasta
+- bacon
+- parmesan cheese
+- tomato
+- black pepper
 - salt

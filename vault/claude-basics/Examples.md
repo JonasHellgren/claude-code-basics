@@ -12,5 +12,6 @@
 | 7   | Slash commands  | [[Slash commands]]    |
 | 8   | Word creation   | [[Word doc creation]] |
 | 9   | Paper search    | [[Paper search]]      |
-| 10  | Receipes        | [[Recipe proposer]]  |
+| 10  | Receipes        | [[Recipe proposer]]   |
+| 11  | Text loop       | [[Text loop]]         |
 |     |                 |                       |

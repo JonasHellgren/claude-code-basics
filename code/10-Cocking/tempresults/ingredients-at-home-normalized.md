@@ -1,4 +1,4 @@
-# Normalized Ingredients at Home
+# Available Ingredients
 
 - bacon
 - black pepper
@@ -6,7 +6,9 @@
 - cheese
 - egg
 - flour
+- ham
 - milk
 - parmesan cheese
 - pasta
 - salt
+- tomato

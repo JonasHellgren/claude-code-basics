@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//g/Min enhet/cocking-support/**)",
+      "Write(//g/Min enhet/cocking-support/**)",
+      "Edit(//g/Min enhet/cocking-support/**)",
+      "Bash(python *)",
+      "Bash(/c/Python314/python *)",
+      "Bash(node *)",
+      "Bash(npm install *)",
+      "Bash(npm ls *)",
+      "Bash(npm root *)",
+      "Bash(npm config *)",
+      "Bash(pip install *)",
+      "Bash(pip list *)",
+      "Bash(mkdir -p *)",
+      "Bash(unzip *)",
+      "Bash(rm \"G:/Min enhet/cocking-support/*)",
+      "Bash(pandoc *)"
+    ]
+  },
+    "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"$CLAUDE_PROJECT_DIR/.claude/hooks/run-init-after-recipe.ps1\""
+          }
+        ]
+      }
+    ]
+  }
+}

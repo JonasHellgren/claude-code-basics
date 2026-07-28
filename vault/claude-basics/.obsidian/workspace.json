@@ -6,7 +6,6 @@
       {
         "id": "88ca81aac476d17b",
         "type": "tabs",
-        "dimension": 39.73647711511789,
         "children": [
           {
             "id": "477eb151fb28e4ca",
@@ -79,80 +78,21 @@
             }
           },
           {
-            "id": "c85ed6b76ff4dc43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concepts/State file.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "State file"
-            }
-          },
-          {
-            "id": "75d2a45d7f7d002e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "examples/Route planner.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Route planner"
-            }
-          },
-          {
-            "id": "61d2cfe1c40f70fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Examples.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Examples"
-            }
-          },
-          {
             "id": "3317d2eee8157f31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "examples/Recipe proposer.md",
+                "file": "examples/Text loop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recipe proposer"
+              "title": "Text loop"
             }
           }
         ],
-        "currentTab": 8
-      },
-      {
-        "id": "36662601ffec122c",
-        "type": "tabs",
-        "dimension": 60.26352288488211,
-        "children": [
-          {
-            "id": "b38b746a2bff8554",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Grafvy"
-            }
-          }
-        ]
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -225,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concepts.md",
+                "file": "examples/Text loop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bakåtlänkar för Concepts"
+              "title": "Bakåtlänkar för Text loop"
             }
           },
           {
@@ -295,13 +235,23 @@
               "icon": "lucide-list",
               "title": "Disposition av Concepts"
             }
+          },
+          {
+            "id": "61d2cfe1c40f70fe",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Grafvy"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 464.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -314,22 +264,29 @@
       "bases:Skapa ny bas": false
     }
   },
-  "active": "3317d2eee8157f31",
+  "active": "47cf3dbf853e5ad9",
   "lastOpenFiles": [
-    "Examples.md",
-    "Concepts.md",
-    "examples/Recipe proposer.md",
+    "figs/textloop.png",
+    "figs/recipe.png",
+    "concepts/Iterative improvement.md",
+    "examples/Text loop.md",
+    "concepts/hook.md",
     "examples/empty.md",
+    "Examples.md",
+    "examples/Recipe proposer.md",
+    "Concepts.md",
+    "concepts/Google drive as external folder.md",
+    "concepts/State file.md",
+    "examples/Route planner.md",
+    "examples/Paper search.md",
+    "examples/Guess number.md",
     "examples/Folder creator.md",
     "concepts/Object creation.md",
     "examples/Slash commands.md",
     "concepts/Agent skill.md",
     "examples/Word doc creation.md",
-    "examples/Paper search.md",
     "figs/paper-search.png",
     "concepts/MCP.md",
-    "examples/Guess number.md",
-    "examples/Route planner.md",
     "figs/claude-commands.jpg",
     "examples/Hello world.md",
     "examples/Bike classifier.md",
@@ -339,14 +296,8 @@
     "concepts/Prompt argument.md",
     "examples/Car classifier.md",
     "concepts/Web search.md",
-    "concepts/Subagent.md",
-    "concepts/State file.md",
-    "concepts/Prompt.md",
-    "concepts/Main agent.md",
-    "concepts/Input file.md",
     "concepts",
     "figs/guess-num-flow.png",
-    "BookReviewer.md",
     "figs/route-planner-flow.png",
     "figs",
     "Ny mapp",

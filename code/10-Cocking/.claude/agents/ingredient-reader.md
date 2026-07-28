@@ -9,7 +9,7 @@ model: haiku
 
 Read:
 
-`G:/Min enhet/cocking-support/at-home/ingredients-avail.docx`
+`pathdrive/at-home/ingredients-avail.docx`
 
 Extract all available ingredients.
 
@@ -28,7 +28,7 @@ Examples:
 
 Save the normalized list to:
 
-`results/normalized-ingredients.md`
+`tempresults/normalized-ingredients.md`
 
 Use this format:
 

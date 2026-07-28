@@ -1,0 +1,3 @@
+Using Google Drive as an external data store means keeping project data outside the local Claude Code project while still accessing it through a synchronized folder on the computer. Claude Code reads the Drive files as normal local files, while Google Drive handles cloud storage and synchronization between devices. This makes the data available from both the desktop and mobile devices without requiring a database or MCP server. In the recipe example, files such as `ingredients-at-home.txt` can be stored in Google Drive, edited on a phone, synchronized to the computer, and then read by Claude Code during the workflow.
+
+[[Concepts]]
