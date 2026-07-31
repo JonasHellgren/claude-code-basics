@@ -2,12 +2,12 @@ The example starts with rough bullet points in `poles.md` and writing rules in `
 
 ## Agents
 
-|Agent|Role|
-|---|---|
-|Main Agent|Coordinates the workflow, reads the maximum iteration argument, invokes the subagents, manages the review loop, and saves the final result.|
-|`text-writer`|Reads `poles.md` and `requirements.md`, then creates the first complete text in `results/current-text.md`.|
-|`text-reviewer`|Reviews the current text against all requirements, assigns a score, and writes specific feedback to `results/latest-review.md`.|
-|`text-modifier`|Revises `results/current-text.md` using the latest review and prepares the text for another review iteration.|
+| Agent           | Role                                                                                                                                        |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Main Agent      | Coordinates the workflow, reads the maximum iteration argument, invokes the subagents, manages the review loop, and saves the final result. |
+| `text-writer`   | Reads `poles.md` and `requirements.md`, then creates the first complete text in `results/current-text.md`.                                  |
+| `text-reviewer` | Reviews the current text against all requirements, assigns a score, and writes specific feedback to `results/latest-review.md`.             |
+| `text-modifier` | Revises `results/current-text.md` using the latest review and prepares the text for another review iteration.                               |
 ## Concepts introduced
 
 [[Iterative improvement]]

@@ -69,30 +69,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/Input file.md",
+                "file": "Examples.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Input file"
+              "title": "Examples"
             }
           },
           {
             "id": "3317d2eee8157f31",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "examples/Text loop.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Grafvy"
+            }
+          },
+          {
+            "id": "fc5f890b5e9b6aed",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Text loop"
+              "title": "Ny flik"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -149,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "7cc8ded27166ec1d",
@@ -165,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "examples/Text loop.md",
+                "file": "Examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +182,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bakåtlänkar för Text loop"
+              "title": "Bakåtlänkar för Examples"
             }
           },
           {
@@ -251,7 +258,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5
+    "width": 670.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,38 +271,39 @@
       "bases:Skapa ny bas": false
     }
   },
-  "active": "47cf3dbf853e5ad9",
+  "active": "5074b0bc2a825fc9",
   "lastOpenFiles": [
+    "examples/Paper search.md",
+    "Examples.md",
+    "examples/Bike classifier.md",
+    "examples/Text loop.md",
+    "examples/Route planner.md",
+    "examples/Guess number.md",
+    "examples/Hello world.md",
+    "Concepts.md",
+    "concepts/Input file.md",
+    "concepts/Main agent.md",
+    "concepts/Prompt.md",
+    "examples/Slash commands.md",
     "figs/textloop.png",
     "figs/recipe.png",
     "concepts/Iterative improvement.md",
-    "examples/Text loop.md",
     "concepts/hook.md",
     "examples/empty.md",
-    "Examples.md",
     "examples/Recipe proposer.md",
-    "Concepts.md",
     "concepts/Google drive as external folder.md",
     "concepts/State file.md",
-    "examples/Route planner.md",
-    "examples/Paper search.md",
-    "examples/Guess number.md",
     "examples/Folder creator.md",
     "concepts/Object creation.md",
-    "examples/Slash commands.md",
     "concepts/Agent skill.md",
     "examples/Word doc creation.md",
     "figs/paper-search.png",
     "concepts/MCP.md",
     "figs/claude-commands.jpg",
-    "examples/Hello world.md",
-    "examples/Bike classifier.md",
     "concepts/Rule evaluation.md",
     "examples/Book reviewer.md",
     "figs/bike classifier.png",
     "concepts/Prompt argument.md",
-    "examples/Car classifier.md",
-    "concepts/Web search.md",
     "concepts",
     "figs/guess-num-flow.png",
     "figs/route-planner-flow.png",
