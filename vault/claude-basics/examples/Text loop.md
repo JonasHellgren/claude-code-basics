@@ -1,5 +1,7 @@
 The example starts with rough bullet points in `poles.md` and writing rules in `requirements.md`. The `text-writer` converts the bullet points into a complete first draft. The `text-reviewer` checks the draft against requirements such as paragraph structure, length, language, clarity, and style. If the text does not pass, the `text-modifier` applies the feedback and creates a new version. The loop continues until the text is approved or the maximum number of iterations is reached.
 
+[[Examples]]
+
 ## Agents
 
 | Agent           | Role                                                                                                                                        |

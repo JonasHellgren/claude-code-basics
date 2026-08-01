@@ -14,4 +14,9 @@
 | 9   | Paper search    | [[Paper search]]      |
 | 10  | Receipes        | [[Recipe proposer]]   |
 | 11  | Text loop       | [[Text loop]]         |
+| 12  | JavaTDD         | [[JavaTDDLoop]]       |
+|     |                 |                       |
+|     |                 |                       |
+|     |                 |                       |
+|     |                 |                       |
 |     |                 |                       |

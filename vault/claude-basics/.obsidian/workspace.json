@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Examples.md",
+                "file": "JavaTDDLoop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Examples"
+              "title": "JavaTDDLoop"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Examples.md",
+                "file": "JavaTDDLoop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bakåtlänkar för Examples"
+              "title": "Bakåtlänkar för JavaTDDLoop"
             }
           },
           {
@@ -247,10 +247,14 @@
             "id": "61d2cfe1c40f70fe",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Grafvy"
+              "type": "markdown",
+              "state": {
+                "file": "Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Concepts"
             }
           }
         ],
@@ -273,23 +277,26 @@
   },
   "active": "5074b0bc2a825fc9",
   "lastOpenFiles": [
-    "examples/Paper search.md",
+    "concepts/Iterative improvement.md",
+    "Concepts.md",
+    "JavaTDDLoop.md",
+    "Test-driven development (TDD).md",
+    "examples/empty.md",
+    "concepts/Prompt argument.md",
     "Examples.md",
-    "examples/Bike classifier.md",
     "examples/Text loop.md",
+    "examples/Paper search.md",
+    "examples/Bike classifier.md",
     "examples/Route planner.md",
     "examples/Guess number.md",
     "examples/Hello world.md",
-    "Concepts.md",
     "concepts/Input file.md",
     "concepts/Main agent.md",
     "concepts/Prompt.md",
     "examples/Slash commands.md",
     "figs/textloop.png",
     "figs/recipe.png",
-    "concepts/Iterative improvement.md",
     "concepts/hook.md",
-    "examples/empty.md",
     "examples/Recipe proposer.md",
     "concepts/Google drive as external folder.md",
     "concepts/State file.md",
@@ -300,10 +307,7 @@
     "figs/paper-search.png",
     "concepts/MCP.md",
     "figs/claude-commands.jpg",
-    "concepts/Rule evaluation.md",
-    "examples/Book reviewer.md",
     "figs/bike classifier.png",
-    "concepts/Prompt argument.md",
     "concepts",
     "figs/guess-num-flow.png",
     "figs/route-planner-flow.png",

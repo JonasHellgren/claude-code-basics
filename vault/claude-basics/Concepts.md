@@ -12,7 +12,7 @@
 | Paper search      | [[MCP]]                                       |
 | Recipes           | [[hook]], [[Google drive as external folder]] |
 | Text loop         | [[Iterative improvement]]                     |
-|                   |                                               |
+| TDD               | [[Test-driven development (TDD)]]             |
 |                   |                                               |
 webfetch
 tools
