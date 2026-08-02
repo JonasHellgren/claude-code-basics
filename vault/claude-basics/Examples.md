@@ -14,8 +14,8 @@
 | 9   | Paper search    | [[Paper search]]      |
 | 10  | Receipes        | [[Recipe proposer]]   |
 | 11  | Text loop       | [[Text loop]]         |
-| 12  | JavaTDD         | [[Java TDD Loop]]       |
-| 13  | Java2Python     | [[Java too python]]   |
+| 12  | JavaTDD         | [[Java TDD Loop]]     |
+| 13  | Java2Python     | [[Java too Python]]   |
 |     |                 |                       |
 |     |                 |                       |
 |     |                 |                       |

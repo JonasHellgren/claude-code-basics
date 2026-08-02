@@ -1,0 +1,3 @@
+Source code analysis is the process of automatically examining an existing software project to understand its structure and behavior. Instead of relying on external documentation, an analysis tool inspects the source files to identify packages, classes, methods, dependencies, and application flow. The extracted information can then be used for tasks such as documentation, code translation, refactoring, or quality assessment. In this example, an AI agent analyzes a Java project and produces a structured architecture summary that serves as the foundation for generating an equivalent Python implementation.
+
+[[Concepts]]
