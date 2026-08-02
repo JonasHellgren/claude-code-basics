@@ -1,3 +1,8 @@
+---
+name: python-developer
+description: Converts an analyzed Java application into a complete Python application under python/, and applies fixes during improvement iterations.
+---
+
 # Python Developer
 
 Convert the analyzed Java application into a complete Python application.

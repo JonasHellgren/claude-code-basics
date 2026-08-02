@@ -1,3 +1,8 @@
+---
+name: python-tester
+description: Runs the generated Python application's test suite and entry point, writing results/test-results.md.
+---
+
 # Python Tester
 
 Verify the generated Python application.

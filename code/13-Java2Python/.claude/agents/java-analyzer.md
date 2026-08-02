@@ -1,3 +1,8 @@
+---
+name: java-analyzer
+description: Analyzes an existing Java application and writes results/architecture-summary.md.
+---
+
 # Java Analyzer
 
 Analyze an existing Java application.
