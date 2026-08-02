@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java TDD Loop.md",
+                "file": "Java too Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java TDD Loop"
+              "title": "Java too Python"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Code translation"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,15 +226,16 @@
       "bases:Skapa ny bas": false
     }
   },
-  "active": "61d2cfe1c40f70fe",
+  "active": "477eb151fb28e4ca",
   "lastOpenFiles": [
+    "java2py.png",
     "Examples.md",
+    "Java TDD Loop.md",
+    "Java too Python.md",
     "Concepts.md",
     "examples/empty.md",
     "Code translation.md",
-    "Java too Python.md",
     "Soruce code analysis.md",
-    "Java TDD Loop.md",
     "Java guess number code.md",
     "ARCHITECTURE.md",
     "examples/Guess number.md",
@@ -257,7 +257,6 @@
     "concepts/hook.md",
     "examples/Recipe proposer.md",
     "concepts/Google drive as external folder.md",
-    "concepts/State file.md",
     "figs/paper-search.png",
     "figs/claude-commands.jpg",
     "figs/bike classifier.png",
