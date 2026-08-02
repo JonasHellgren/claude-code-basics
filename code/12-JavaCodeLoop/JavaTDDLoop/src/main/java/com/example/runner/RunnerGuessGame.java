@@ -19,9 +19,7 @@ public final class RunnerGuessGame {
         var generator = SecretNumberGenerator.create();
         var guesser = NumberGuesser.create();
         var game = GuessGame.of(startInterval, generator, guesser);
-
-        GameResult result = game.play();
-
+        var result = game.play();
         System.out.println(result);
     }
 }

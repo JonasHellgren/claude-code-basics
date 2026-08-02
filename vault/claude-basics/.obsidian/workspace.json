@@ -13,54 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "examples/Guess number.md",
+                "file": "Java TDD Loop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guess number"
+              "title": "Java TDD Loop"
             }
           },
           {
-            "id": "c0b27665d0e5c124",
+            "id": "a8898fbdd6a5a28b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/Main agent.md",
+                "file": "Java TDD Loop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Main agent"
-            }
-          },
-          {
-            "id": "716f5c04ad95ba21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concepts/Prompt.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Prompt"
-            }
-          },
-          {
-            "id": "5492580428914d52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concepts/Subagent.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Subagent"
+              "title": "Java TDD Loop"
             }
           },
           {
@@ -69,36 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaTDDLoop.md",
+                "file": "Java too python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaTDDLoop"
-            }
-          },
-          {
-            "id": "3317d2eee8157f31",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Grafvy"
-            }
-          },
-          {
-            "id": "fc5f890b5e9b6aed",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Ny flik"
+              "title": "Java too python"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaTDDLoop.md",
+                "file": "Java TDD Loop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bakåtlänkar för JavaTDDLoop"
+              "title": "Bakåtlänkar för Java TDD Loop"
             }
           },
           {
@@ -249,12 +201,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts.md",
+                "file": "examples/empty.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concepts"
+              "title": "empty"
             }
           }
         ],
@@ -275,20 +227,24 @@
       "bases:Skapa ny bas": false
     }
   },
-  "active": "5074b0bc2a825fc9",
+  "active": "a8898fbdd6a5a28b",
   "lastOpenFiles": [
-    "concepts/Iterative improvement.md",
-    "Concepts.md",
-    "JavaTDDLoop.md",
-    "Test-driven development (TDD).md",
-    "examples/empty.md",
-    "concepts/Prompt argument.md",
+    "Java guess number code.md",
+    "Java TDD Loop.md",
     "Examples.md",
+    "examples/empty.md",
+    "ARCHITECTURE.md",
+    "examples/Guess number.md",
+    "Java too python.md",
+    "Concepts.md",
+    "tdd.png",
+    "concepts/Iterative improvement.md",
+    "Test-driven development (TDD).md",
+    "concepts/Prompt argument.md",
     "examples/Text loop.md",
     "examples/Paper search.md",
     "examples/Bike classifier.md",
     "examples/Route planner.md",
-    "examples/Guess number.md",
     "examples/Hello world.md",
     "concepts/Input file.md",
     "concepts/Main agent.md",
@@ -301,11 +257,7 @@
     "concepts/Google drive as external folder.md",
     "concepts/State file.md",
     "examples/Folder creator.md",
-    "concepts/Object creation.md",
-    "concepts/Agent skill.md",
-    "examples/Word doc creation.md",
     "figs/paper-search.png",
-    "concepts/MCP.md",
     "figs/claude-commands.jpg",
     "figs/bike classifier.png",
     "concepts",

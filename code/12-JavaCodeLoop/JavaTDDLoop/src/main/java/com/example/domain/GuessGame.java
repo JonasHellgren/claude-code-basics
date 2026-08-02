@@ -9,6 +9,10 @@ import java.util.Objects;
  * Plays a guessing game: repeatedly narrows an {@link Interval} until the secret
  * number, produced by a {@link SecretNumberGenerator}, is found by a
  * {@link NumberGuesser}.
+ *
+ * <p>{@link #play()} always terminates: it gives up and returns a failed
+ * {@link GameResult} once the number of attempts reaches the number of values in the
+ * starting interval, which bounds even a misbehaving {@link NumberGuesser}.</p>
  */
 public class GuessGame {
 
@@ -30,8 +34,9 @@ public class GuessGame {
         int secretNumber = generator.generate(startInterval);
         Interval currentInterval = startInterval;
         int attempts = 0;
+        int maxAttempts = startInterval.upper() - startInterval.lower() + 1;
 
-        while (true) {
+        while (attempts < maxAttempts) {
             int guess = guesser.nextGuess(currentInterval);
             attempts++;
 
@@ -44,5 +49,6 @@ public class GuessGame {
                 currentInterval = Interval.of(currentInterval.lower(), guess - 1);
             }
         }
+        return GameResult.failure(secretNumber, attempts);
     }
 }

@@ -4,9 +4,11 @@ import com.example.domain.GuessGame;
 import com.example.domain.NumberGuesser;
 import com.example.testsupport.FakeSecretNumberGenerator;
 import com.example.testsupport.RecordingNumberGuesser;
+import com.example.testsupport.StubbornNumberGuesser;
 import com.example.valueobjects.GameResult;
 import com.example.valueobjects.Interval;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
 
 import java.util.List;
 
@@ -119,6 +121,20 @@ class GuessGameTest {
             assertTrue(currentWidth < previousWidth,
                     "Interval did not narrow between attempt " + i + " and " + (i + 1));
         }
+    }
+
+    @Test
+    @Timeout(2)
+    void givesUpWithFailureResultWhenGuesserNeverConverges() {
+        var generator = new FakeSecretNumberGenerator(50);
+        var stubbornGuesser = new StubbornNumberGuesser(1);
+        var game = new GuessGame(FULL_RANGE, generator, stubbornGuesser);
+
+        GameResult result = game.play();
+
+        assertFalse(result.success());
+        assertEquals(50, result.secretNumber());
+        assertEquals(100, result.attempts());
     }
 
     @Test
